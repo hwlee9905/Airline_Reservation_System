@@ -1,0 +1,50 @@
+<html>
+<head> 
+  <title>항공편 추가</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+<div class="center" >
+</br>
+<h2>항공편 등록</h2>
+<form action="administratorInsert.jsp" method="POST"  >
+    <div class="txt_field">
+		<input type="text" name="date" id="date" required>
+		<label>운행 날짜</label>
+	</div>
+   	<div class="txt_field">
+		<input type="text" name="flightnum" id="flightnum" required>
+		<label>항공편 번호</label>
+	</div>
+    <div class="txt_field">
+		<input type="text" name="stime" id="stime" required>
+		<label>출발 시간</label>
+	</div>
+    <div class="txt_field">
+		<input type="text" name="atime" id="atime" required>
+		<label>도착시간</label>
+	</div>
+	<div class="txt_field">
+		<input type="text" name="departpoint" id="departpoint" required>
+		<label>출발지</label>
+	</div>
+	<div class="txt_field">
+		<input type="text" name="destination" id="destination" required>
+		<label>도착지</label>
+	</div>
+    <div class="txt_field">
+		<input type="text" name="fightime" id="fightime" required>
+		<label>운행 시간</label>
+	</div>
+	<div class="txt_field">
+		<input type="text" name="fee" id="fee" required>
+		<label>요금</label>
+	</div>
+    <p align = center><input type="submit" value="확인" >
+</form>
+</div>
+
+        
+</body>
+</html>

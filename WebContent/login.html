@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style type="text/css">
+body{margin:0; padding:0; line-height: 1.2em; font-size:0.75em; line-height: 1.2em;}
+h1{font-size: 50px; color:orangered; margin:30px 0 50px 0}
+article{margin: 0 0 10px 0;}
+.left{float: left;}
+.right{float: right;}
+ul li{float:left;  margin:0 75px; list-style:none;}/*nav글씨*/
+footer #foot {font-size:20px; margin: 20px 0 0 20px; float:left;}
+footer #link {margin: 10px 20px 20px 20px; float:right;}
+legend{font-size: 20px;}
+hr{clear: both;}
+</style>
+<script>
+function find_id(){
+	window.open("find_id.jsp", "findid", "width=400, height=350");
+}
+function find_pw(){
+	window.open("find_pw.jsp", "findpw", "width=400, height=350");
+}
+</script>
+
+<title></title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Airline Ticket Reservation System</h1>
+
+<nav>
+<button style="border-radius: 5em;  background: #F9F9F9; box-shadow: 2px 3px 10px rgba(0,0,0,0.2);  margin-right: 5px;" class="btn btn-swap" onclick="location.href='login.html'">
+	로그인<span>로그인</span>
+</button>
+<button style="border-radius: 5em; background: #F9F9F9; box-shadow: 2px 3px 10px rgba(0,0,0,0.2);  margin-right: 5px;" class="btn btn-swap" onclick="location.href='information.html'">
+	비행기 정보<span>비행기 정보</span>
+</button>
+<button style="border-radius: 5em;  background: #F9F9F9; box-shadow: 2px 3px 10px rgba(0,0,0,0.2);  margin-right: 5px;" class="btn btn-swap" onclick="location.href='luggage.html'">
+	수하물 안내<span>수하물 안내</span>
+</button>
+<button style="border-radius: 5em;background: #F9F9F9; box-shadow: 2px 3px 10px rgba(0,0,0,0.2);  margin-right: 5px;" class="btn btn-swap" onclick="location.href='ride.html'">
+	탑승 절차 안내<span>탑승 절차 안내</span>
+</button>
+<button style="border-radius: 5em; background: #F9F9F9; box-shadow: 2px 3px 10px rgba(0,0,0,0.2);  margin-right: 5px;" class="btn btn-swap" onclick="location.href='food.html'">
+	기내식 안내<span>기내식 안내</span>
+</button>
+</nav>
+
+</br>
+</br>
+
+
+
+<div class="center" >
+	<br>
+	<h2>Login</h2>
+	<form method="post" name="login" action="login_ok.jsp">
+		
+		<div class="txt_field">
+			<input type="text" name="id" id="id" required>
+
+			<label>아이디</label>
+		</div>
+		<div class="txt_field">
+			<input type="password" name="pw" id="passwd" required>
+			<label>비밀번호</label>
+		</div>
+		<div class="pass" onclick="find_id()">아이디를 잊어버리셨나요?</div>
+		<div class="pass" onclick="find_pw()">비밀번호를 잊어버리셨나요?</div>
+		<input type="submit" value="Login">
+		<div class="signup_link">
+			회원이 아니신가요? <a href="signup.html" >회원가입</a>
+		</div>
+		<br>
+	</form>
+</div>
+</br>
+</br>
+<footer>
+<hr>  
+<div id="foot">
+	2022 @hanshin university / airplane
+</div>
+<div id="link">
+	<a href="http://www.naver.com" target="_blank">
+		<img src="image/naver.png" height="32">
+	</a>
+	<a href="http://www.google.com" target="_blank">
+		<img src="image/google.png" height="32">
+	</a>
+	<a href="http://www.daum.net" target="_blank">
+		<img src="image/daum.png" height="32">
+	</a>
+</div>
+</hr>
+</footer>
+</div>
+</body>
+</html>

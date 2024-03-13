@@ -1,0 +1,47 @@
+<html>
+  <head> 
+    <title>항공편 추가</title>
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  
+  <body>
+<div class="center" >
+</br>
+<h2>항공기 등록</h2>
+<form action="administratorInsert.jsp" method="POST"  >
+    <div class="txt_field">
+		<input type="text" name="aircraftnum" id="aircraftnum" required>
+		<label>항공기 번호</label>
+	</div>
+   	<div class="txt_field">
+		<input type="text" name="size" id="size" required>
+		<label>길이(m)</label>
+	</div>
+    <div class="txt_field">
+		<input type="text" name="weight" id="weight" required>
+		<label>무게(ton)</label>
+	</div>
+    <div class="txt_field">
+		<input type="text" name="speed" id="speed" required>
+		<label>속도(km)</label>
+	</div>
+	<div class="txt_field">
+		<input type="text" name="holdpersonnumber" id="holdpersonnumber" required>
+		<label>수용인원</label>
+	</div>
+	<div class="txt_field">
+		<input type="text" name="productiondate" id="productiondate" required>
+		<label>생산일</label>
+	</div>
+    <div class="txt_field">
+		<input type="text" name="price" id="price" required>
+		<label>가격</label>
+	</div>
+    <p align = center><input type="submit" value="확인" >
+    </br>
+</form>
+ </br>
+</div>
+        
+  </body>
+</html>
