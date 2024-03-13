@@ -132,9 +132,6 @@ Mysql Database를 설치하고 DriverManager.getConnection()의 파라미터 정
 - assignCheck.jsp - 배정된 항공편과 항공기의 리스트들의 일제히 출력, 선택후(다중 선택 가능) 인원수(최대10명)를 선택받고 예약을 누르면 reservation.jsp 실행 (이떄 자리가없으면 자리없다고 출력, 만약 다중선택중 일부가 예약불가(자리없음or남은자리대비 인원수 초과)상태면 예약 가능한 것은 다 예약함)
 
 - reservation.jsp - assignCheck.jsp에서 선택한 배정된 항공편과 항공기와 인원수를 가져와 DB에 추가함
-![image](https://github.com/hwlee9905/Airline_Reservation_System/assets/127581593/2f75cffb-3fe4-46a9-9ccf-b8c4ba511712)
-
-
 
 ## UI Specification
 ![image](https://github.com/hwlee9905/Airline_Reservation_System/assets/127581593/91cbd9e5-2763-45c0-ad66-35ce0711eea5)
