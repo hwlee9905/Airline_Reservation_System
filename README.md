@@ -13,6 +13,7 @@ JDBC만을 이용해 구현해본 레거시 프로젝트로, 항공 예약 시�
 
 본 프로젝트는 로컬로 작동하므로.
 Mysql Database를 설치하고 DriverManager.getConnection()의 파라미터 정보가 Mysql Database 정보와 일치하면 연결됩니다.
+//한글 주석이 깨진다면 프로젝트 인코딩을 UTF-8로 바꿔주세요.
 
 1.DBairport.src.airport.DB Class에서 Database Connection을 설정합니다.
 ![image](https://github.com/hwlee9905/Airline_Reservation_System/assets/127581593/c7faf635-a859-473e-a660-fba665675bc7)
